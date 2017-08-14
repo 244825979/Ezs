@@ -11,11 +11,8 @@
 		4B6DCA5967D188C4DBB4D0FF /* libPods-EzsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA53D21E25879415FF20BD7 /* libPods-EzsTests.a */; };
 		6D846CAC1F4143EF0057E597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CAB1F4143EF0057E597 /* main.m */; };
 		6D846CAF1F4143EF0057E597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CAE1F4143EF0057E597 /* AppDelegate.m */; };
-		6D846CB21F4143EF0057E597 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CB11F4143EF0057E597 /* ViewController.m */; };
-		6D846CB51F4143EF0057E597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D846CB31F4143EF0057E597 /* Main.storyboard */; };
 		6D846CB81F4143EF0057E597 /* Ezs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CB61F4143EF0057E597 /* Ezs.xcdatamodeld */; };
 		6D846CBA1F4143EF0057E597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D846CB91F4143EF0057E597 /* Assets.xcassets */; };
-		6D846CBD1F4143EF0057E597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D846CBB1F4143EF0057E597 /* LaunchScreen.storyboard */; };
 		6D846CC81F4143EF0057E597 /* EzsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CC71F4143EF0057E597 /* EzsTests.m */; };
 		6D846CD31F4143EF0057E597 /* EzsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CD21F4143EF0057E597 /* EzsUITests.m */; };
 		6D984A781F414CFE001DF0F8 /* RootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D984A771F414CFE001DF0F8 /* RootTabBarController.m */; };
@@ -80,12 +77,8 @@
 		6D846CAB1F4143EF0057E597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D846CAD1F4143EF0057E597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
 		6D846CAE1F4143EF0057E597 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
-		6D846CB01F4143EF0057E597 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6D846CB11F4143EF0057E597 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6D846CB41F4143EF0057E597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D846CB71F4143EF0057E597 /* Ezs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ezs.xcdatamodel; sourceTree = "<group>"; };
 		6D846CB91F4143EF0057E597 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D846CBC1F4143EF0057E597 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6D846CBE1F4143EF0057E597 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D846CC31F4143EF0057E597 /* EzsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EzsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D846CC71F4143EF0057E597 /* EzsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EzsTests.m; sourceTree = "<group>"; };
@@ -155,6 +148,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D403DBF1F41E72600EB3DCB /* Http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
 		6D846C9E1F4143EF0057E597 = {
 			isa = PBXGroup;
 			children = (
@@ -185,11 +185,7 @@
 				6D984A6C1F414C73001DF0F8 /* Define */,
 				6D984A6D1F414C73001DF0F8 /* Expand */,
 				6D984A6F1F414C73001DF0F8 /* Vender */,
-				6D846CB01F4143EF0057E597 /* ViewController.h */,
-				6D846CB11F4143EF0057E597 /* ViewController.m */,
-				6D846CB31F4143EF0057E597 /* Main.storyboard */,
 				6D846CB91F4143EF0057E597 /* Assets.xcassets */,
-				6D846CBB1F4143EF0057E597 /* LaunchScreen.storyboard */,
 				6D846CBE1F4143EF0057E597 /* Info.plist */,
 				6D846CB61F4143EF0057E597 /* Ezs.xcdatamodeld */,
 				6D846CAA1F4143EF0057E597 /* Supporting Files */,
@@ -226,6 +222,7 @@
 		6D984A6B1F414C73001DF0F8 /* BaseServices */ = {
 			isa = PBXGroup;
 			children = (
+				6D403DBF1F41E72600EB3DCB /* Http */,
 				6D984A751F414CFE001DF0F8 /* BaseController */,
 			);
 			path = BaseServices;
@@ -492,9 +489,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D846CBD1F4143EF0057E597 /* LaunchScreen.storyboard in Resources */,
 				6D846CBA1F4143EF0057E597 /* Assets.xcassets in Resources */,
-				6D846CB51F4143EF0057E597 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -658,7 +653,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D984A9F1F41A26E001DF0F8 /* ComFunc.m in Sources */,
-				6D846CB21F4143EF0057E597 /* ViewController.m in Sources */,
 				6D984ABC1F41A541001DF0F8 /* WorkViewController.m in Sources */,
 				6D984A7D1F414D35001DF0F8 /* RootNavigationController.m in Sources */,
 				6D846CAF1F4143EF0057E597 /* AppDelegate.m in Sources */,
@@ -728,25 +722,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		6D846CB31F4143EF0057E597 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D846CB41F4143EF0057E597 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6D846CBB1F4143EF0057E597 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6D846CBC1F4143EF0057E597 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		6D846CD51F4143EF0057E597 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -789,7 +764,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -831,7 +806,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -843,6 +818,7 @@
 			baseConfigurationReference = 4B13E5993585E99C9A5026C6 /* Pods-Ezs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Y5WX43KK4M;
 				GCC_PREFIX_HEADER = "${SRCROOT}/Ezs/Define/Main_pch.pch";
 				INFOPLIST_FILE = Ezs/Info.plist;
@@ -857,6 +833,7 @@
 			baseConfigurationReference = 69DACFC50EE853D0B82375F4 /* Pods-Ezs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = Y5WX43KK4M;
 				GCC_PREFIX_HEADER = "${SRCROOT}/Ezs/Define/Main_pch.pch";
 				INFOPLIST_FILE = Ezs/Info.plist;
