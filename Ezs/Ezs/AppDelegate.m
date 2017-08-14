@@ -16,6 +16,9 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [self setAppWindows];
+    [self setRootViewController];
+
     // Override point for customization after application launch.
     return YES;
 }
