@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		04211CB3168B47925C22D53F /* libPods-EzsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E702E81D71C9421CF3D5DDF5 /* libPods-EzsUITests.a */; };
 		4B6DCA5967D188C4DBB4D0FF /* libPods-EzsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA53D21E25879415FF20BD7 /* libPods-EzsTests.a */; };
+		6D403DC21F41E90100EB3DCB /* HttpHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D403DC11F41E90100EB3DCB /* HttpHander.m */; };
+		6D403DC31F41E90100EB3DCB /* HttpHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D403DC11F41E90100EB3DCB /* HttpHander.m */; };
+		6D403DC41F41E90100EB3DCB /* HttpHander.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D403DC11F41E90100EB3DCB /* HttpHander.m */; };
+		6D403DC81F41E94D00EB3DCB /* MsgTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D403DC71F41E94D00EB3DCB /* MsgTool.m */; };
+		6D403DC91F41E94D00EB3DCB /* MsgTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D403DC71F41E94D00EB3DCB /* MsgTool.m */; };
+		6D403DCA1F41E94D00EB3DCB /* MsgTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D403DC71F41E94D00EB3DCB /* MsgTool.m */; };
 		6D846CAC1F4143EF0057E597 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CAB1F4143EF0057E597 /* main.m */; };
 		6D846CAF1F4143EF0057E597 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CAE1F4143EF0057E597 /* AppDelegate.m */; };
 		6D846CB81F4143EF0057E597 /* Ezs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6D846CB61F4143EF0057E597 /* Ezs.xcdatamodeld */; };
@@ -73,6 +79,10 @@
 		4C40B23733A6F00506BEC26A /* Pods-EzsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EzsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EzsUITests/Pods-EzsUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4EA53D21E25879415FF20BD7 /* libPods-EzsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EzsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DACFC50EE853D0B82375F4 /* Pods-Ezs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ezs.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ezs/Pods-Ezs.release.xcconfig"; sourceTree = "<group>"; };
+		6D403DC01F41E90100EB3DCB /* HttpHander.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpHander.h; sourceTree = "<group>"; };
+		6D403DC11F41E90100EB3DCB /* HttpHander.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpHander.m; sourceTree = "<group>"; };
+		6D403DC61F41E94D00EB3DCB /* MsgTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MsgTool.h; sourceTree = "<group>"; };
+		6D403DC71F41E94D00EB3DCB /* MsgTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MsgTool.m; sourceTree = "<group>"; };
 		6D846CA71F4143EF0057E597 /* Ezs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ezs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D846CAB1F4143EF0057E597 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6D846CAD1F4143EF0057E597 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
@@ -151,8 +161,19 @@
 		6D403DBF1F41E72600EB3DCB /* Http */ = {
 			isa = PBXGroup;
 			children = (
+				6D403DC01F41E90100EB3DCB /* HttpHander.h */,
+				6D403DC11F41E90100EB3DCB /* HttpHander.m */,
 			);
 			path = Http;
+			sourceTree = "<group>";
+		};
+		6D403DC51F41E92800EB3DCB /* Msg */ = {
+			isa = PBXGroup;
+			children = (
+				6D403DC61F41E94D00EB3DCB /* MsgTool.h */,
+				6D403DC71F41E94D00EB3DCB /* MsgTool.m */,
+			);
+			path = Msg;
 			sourceTree = "<group>";
 		};
 		6D846C9E1F4143EF0057E597 = {
@@ -299,6 +320,7 @@
 		6D984A861F41A18C001DF0F8 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				6D403DC51F41E92800EB3DCB /* Msg */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -653,6 +675,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D984A9F1F41A26E001DF0F8 /* ComFunc.m in Sources */,
+				6D403DC21F41E90100EB3DCB /* HttpHander.m in Sources */,
 				6D984ABC1F41A541001DF0F8 /* WorkViewController.m in Sources */,
 				6D984A7D1F414D35001DF0F8 /* RootNavigationController.m in Sources */,
 				6D846CAF1F4143EF0057E597 /* AppDelegate.m in Sources */,
@@ -660,6 +683,7 @@
 				6D984AA81F41A490001DF0F8 /* CustomerViewController.m in Sources */,
 				6D984A951F41A21D001DF0F8 /* AppDelegate+ViewController.m in Sources */,
 				6D984A781F414CFE001DF0F8 /* RootTabBarController.m in Sources */,
+				6D403DC81F41E94D00EB3DCB /* MsgTool.m in Sources */,
 				6D984A921F41A21D001DF0F8 /* AppDelegate+AppService.m in Sources */,
 				6D846CB81F4143EF0057E597 /* Ezs.xcdatamodeld in Sources */,
 				6D984A821F414D82001DF0F8 /* BaseViewController.m in Sources */,
@@ -673,6 +697,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D403DC31F41E90100EB3DCB /* HttpHander.m in Sources */,
 				6D984AAE1F41A49C001DF0F8 /* LoanViewController.m in Sources */,
 				6D984A791F414CFE001DF0F8 /* RootTabBarController.m in Sources */,
 				6D984A831F414D82001DF0F8 /* BaseViewController.m in Sources */,
@@ -685,6 +710,7 @@
 				6D984A991F41A21D001DF0F8 /* UIColor+Addition.m in Sources */,
 				6D984AB31F41A4A8001DF0F8 /* MyProfileViewController.m in Sources */,
 				6D984AA01F41A26E001DF0F8 /* ComFunc.m in Sources */,
+				6D403DC91F41E94D00EB3DCB /* MsgTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,6 +718,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D403DC41F41E90100EB3DCB /* HttpHander.m in Sources */,
 				6D984AAF1F41A49C001DF0F8 /* LoanViewController.m in Sources */,
 				6D984A7A1F414CFE001DF0F8 /* RootTabBarController.m in Sources */,
 				6D984A841F414D82001DF0F8 /* BaseViewController.m in Sources */,
@@ -704,6 +731,7 @@
 				6D984A9A1F41A21D001DF0F8 /* UIColor+Addition.m in Sources */,
 				6D984AB41F41A4A8001DF0F8 /* MyProfileViewController.m in Sources */,
 				6D984AA11F41A26E001DF0F8 /* ComFunc.m in Sources */,
+				6D403DCA1F41E94D00EB3DCB /* MsgTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

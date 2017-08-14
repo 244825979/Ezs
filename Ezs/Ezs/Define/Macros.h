@@ -22,8 +22,11 @@
 //本工程分类
 #import "AppDelegate+ViewController.h"
 #import "AppDelegate+AppService.h"
+#import "UIColor+Addition.h"
 //工具类
 #import "ComFunc.h"
-#import "UIColor+Addition.h"
+#import "HttpHander.h"
+#import "MsgTool.h"
+
 
 #endif /* Macros_h */
