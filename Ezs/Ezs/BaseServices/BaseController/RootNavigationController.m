@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //    //设置tabbar的主题颜色
-    [self.navigationBar setBarTintColor:CLEAR_COLOR];
+    [self.navigationBar setBarTintColor:MAIN_COLOR];
     //    //设置导航栏的字体样式
     [self.navigationBar setTitleTextAttributes:@{NSFontAttributeName:TITLE_FONT,NSForegroundColorAttributeName:WHITE_COLOR}];
     self.delegate=self;

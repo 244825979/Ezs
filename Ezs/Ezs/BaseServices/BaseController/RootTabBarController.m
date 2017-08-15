@@ -32,8 +32,8 @@
     self.delegate=self;
     //tabbar数据数组
     NSArray * itemTitles        = @[@"工作",@"客户",@"借款",@"我的"];
-    NSArray *normalImageItems = @[@"music_icon_unselect",@"me_icon_unselect",@"me_icon_unselect",@"me_icon_unselect"];
-    NSArray *selectImageItems = @[@"music_icon_select",@"me_icon_select",@"me_icon_select",@"me_icon_select"];
+    NSArray *normalImageItems = @[@"Home_icon_unselect",@"customer_icon_unselect",@"loan_icon_unselect",@"me_icon_unselect"];
+    NSArray *selectImageItems = @[@"Home_icon_select",@"customer_icon_select",@"loan_icon_select",@"me_icon_select"];
     NSArray * controllClass   = @[@"WorkViewController",@"CustomerViewController",@"LoanViewController",@"MyProfileViewController"];
     NSMutableArray * controllers = [[NSMutableArray alloc]init];
     //循环添加tabbar的Controller
@@ -54,7 +54,7 @@
         textAttrs[NSFontAttributeName]                 = TEXT_FONT;
         NSMutableDictionary *selectTextAttrs           = [NSMutableDictionary dictionary];
         selectTextAttrs[NSFontAttributeName]           = TEXT_FONT;
-        selectTextAttrs[NSForegroundColorAttributeName] = [UIColor zb_colorWithHex:0xb0ff07];
+        selectTextAttrs[NSForegroundColorAttributeName] = TABBAR_SELECT_TINTCOLOR;
         //设置字体大小
         
         
