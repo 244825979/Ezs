@@ -61,7 +61,7 @@
 //线条颜色
 #define LINE_COLOR UIColorFromRGB(0xCCCCCC)
 // main color
-#define  MAIN_COLOR  [UIColor zb_colorWithHex:0xffba00]
+#define MAIN_COLOR  [UIColor zb_colorWithHex:0xffba00]
 //tab选中颜色
 # define TABBAR_SELECT_TINTCOLOR [UIColor zb_colorWithHex:0xffba00]
 //tab未选中颜色

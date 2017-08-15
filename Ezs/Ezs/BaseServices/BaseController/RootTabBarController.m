@@ -56,8 +56,6 @@
         selectTextAttrs[NSFontAttributeName]           = TEXT_FONT;
         selectTextAttrs[NSForegroundColorAttributeName] = TABBAR_SELECT_TINTCOLOR;
         //设置字体大小
-        
-        
         // navigation.tabBarItem
         [navigation.tabBarItem  setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
         [navigation.tabBarItem setTitleTextAttributes:selectTextAttrs forState:UIControlStateSelected];
